@@ -83,13 +83,6 @@ code {
 @media (max-width: 800px) {
   .search-result {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 500px) {
-  .search-result img {
-    width: 100%;
-    height: 300px;
     object-fit: contain;
   }
 }
