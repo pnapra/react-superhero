@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -6,29 +12,25 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #f1f1f1;
+  background: rgb(26, 40, 8) url("img/background-image.jpeg") no-repeat center
+    center/cover;
   height: 100vh;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .navbar {
   height: 70px;
-  border: 1px solid #e6e6e6;
   display: flex;
   align-items: center;
   padding: 0 16px;
-  background: #fff;
-  border-radius: 10px;
+  background: rgb(27, 31, 24);
+  border-radius: 5px;
 }
 
 #logo {
   font-size: 30px;
   font-weight: 800;
   padding-top: 30px;
+  color: white;
 }
 
 .main {
@@ -82,7 +84,6 @@ code {
 
 @media (max-width: 800px) {
   .search-result {
-    grid-template-columns: repeat(2, 1fr);
     object-fit: contain;
   }
 }
